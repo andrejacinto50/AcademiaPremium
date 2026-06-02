@@ -599,3 +599,251 @@ main{min-height:100vh}
   }
 }
 
+/* =========================
+   REACT MOBILE FORCE
+   APLICA NO CELULAR REAL - TESTE FINAL
+========================= */
+
+body.react-mobile {
+  overflow-x: hidden !important;
+}
+
+body.react-mobile .mouse-glow {
+  display: none !important;
+}
+
+body.react-mobile .header {
+  top: 10px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: calc(100% - 20px) !important;
+  height: 66px !important;
+  padding: 0 12px !important;
+  border-radius: 22px !important;
+  background: rgba(7, 7, 8, .90) !important;
+  border: 1px solid rgba(255,255,255,.12) !important;
+  backdrop-filter: blur(18px) !important;
+  -webkit-backdrop-filter: blur(18px) !important;
+  box-shadow: 0 18px 50px rgba(0,0,0,.42) !important;
+  z-index: 9999 !important;
+}
+
+body.react-mobile .brand small {
+  display: none !important;
+}
+
+body.react-mobile .brand-mark {
+  width: 42px !important;
+  height: 42px !important;
+  min-width: 42px !important;
+  border-radius: 14px !important;
+}
+
+body.react-mobile .brand strong {
+  font-size: 14px !important;
+}
+
+body.react-mobile .menu-btn {
+  display: grid !important;
+  place-items: center !important;
+  min-width: 42px !important;
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 15px !important;
+}
+
+body.react-mobile .nav {
+  position: fixed !important;
+  top: 78px !important;
+  left: 0 !important;
+  right: 0 !important;
+  display: none !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 10px !important;
+  padding: 16px !important;
+  border-radius: 24px !important;
+  background: rgba(7,7,8,.97) !important;
+  border: 1px solid rgba(255,255,255,.12) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  box-shadow: 0 24px 70px rgba(0,0,0,.55) !important;
+  z-index: 10000 !important;
+}
+
+body.react-mobile .nav.nav-open {
+  display: flex !important;
+}
+
+body.react-mobile .nav a {
+  width: 100% !important;
+  min-height: 48px !important;
+  padding: 14px 16px !important;
+  border-radius: 16px !important;
+  background: rgba(255,255,255,.055) !important;
+  color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+body.react-mobile .hero {
+  min-height: auto !important;
+  padding: 122px 16px 48px !important;
+  display: block !important;
+  overflow: hidden !important;
+}
+
+body.react-mobile .hero-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 28px !important;
+  width: 100% !important;
+}
+
+body.react-mobile .hero h1 {
+  font-size: clamp(50px, 16vw, 68px) !important;
+  line-height: .84 !important;
+  letter-spacing: -.065em !important;
+}
+
+body.react-mobile .hero p,
+body.react-mobile .section-head p,
+body.react-mobile .split-content p,
+body.react-mobile .page-hero p {
+  font-size: 15.5px !important;
+  line-height: 1.7 !important;
+}
+
+body.react-mobile .hero-actions {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 12px !important;
+}
+
+body.react-mobile .hero-actions .btn,
+body.react-mobile .final-cta .btn,
+body.react-mobile .contact-form .btn,
+body.react-mobile .btn-full {
+  width: 100% !important;
+}
+
+body.react-mobile .proof-row {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 9px !important;
+}
+
+body.react-mobile .proof-row span {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+body.react-mobile .hero-visual {
+  position: relative !important;
+  width: 100% !important;
+  min-height: 430px !important;
+  height: 430px !important;
+  display: block !important;
+}
+
+body.react-mobile .training-card {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 30px !important;
+}
+
+body.react-mobile .float-card {
+  display: none !important;
+}
+
+body.react-mobile .stats-section,
+body.react-mobile .section,
+body.react-mobile .page-hero,
+body.react-mobile .final-cta {
+  width: calc(100% - 28px) !important;
+}
+
+body.react-mobile .stats-section,
+body.react-mobile .cards-grid,
+body.react-mobile .timeline,
+body.react-mobile .plans-grid,
+body.react-mobile .gallery-grid,
+body.react-mobile .compact,
+body.react-mobile .contact-cards,
+body.react-mobile .contact-grid,
+body.react-mobile .split-section {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 16px !important;
+}
+
+body.react-mobile .section {
+  padding: 74px 0 !important;
+}
+
+body.react-mobile .section-head {
+  text-align: left !important;
+  margin: 0 0 30px !important;
+}
+
+body.react-mobile .section-head h2,
+body.react-mobile .split-content h2,
+body.react-mobile .page-hero h1,
+body.react-mobile .final-cta h2 {
+  font-size: clamp(34px, 11vw, 50px) !important;
+  line-height: .95 !important;
+}
+
+body.react-mobile .premium-card,
+body.react-mobile .plan-card,
+body.react-mobile .timeline-item,
+body.react-mobile .contact-form {
+  width: 100% !important;
+  padding: 24px !important;
+  border-radius: 26px !important;
+}
+
+body.react-mobile .plan-card.featured {
+  transform: none !important;
+}
+
+body.react-mobile .timeline:before {
+  display: none !important;
+}
+
+body.react-mobile .gallery-grid {
+  grid-auto-rows: 230px !important;
+}
+
+body.react-mobile .gallery-item,
+body.react-mobile .item-1,
+body.react-mobile .item-4 {
+  grid-row: span 1 !important;
+  grid-column: auto !important;
+  border-radius: 26px !important;
+}
+
+body.react-mobile .impact-panel,
+body.react-mobile .structure-visual {
+  width: 100% !important;
+  min-height: 360px !important;
+  border-radius: 30px !important;
+  padding: 28px 22px !important;
+}
+
+body.react-mobile .final-cta {
+  margin: 20px auto 84px !important;
+  padding: 48px 20px !important;
+  border-radius: 30px !important;
+  text-align: left !important;
+}
+
+body.react-mobile .float-whats {
+  width: 56px !important;
+  height: 56px !important;
+  right: 16px !important;
+  bottom: 16px !important;
+}
