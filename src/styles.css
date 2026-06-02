@@ -537,3 +537,64 @@ main{min-height:100vh}
   .footer p{font-size:14px!important;line-height:1.8!important}
   .footer-links a{width:100%!important;background:rgba(255,255,255,.03)!important}
 }
+
+/* FORÇA FINAL MOBILE - COLOCAR NO ÚLTIMO LUGAR DO CSS - TESTE */
+@media screen and (max-width: 768px) {
+  .header .nav {
+    display: none !important;
+  }
+
+  .header .nav.nav-open {
+    display: flex !important;
+  }
+
+  .menu-btn {
+    display: grid !important;
+  }
+
+  .hero-grid,
+  .cards-grid,
+  .timeline,
+  .plans-grid,
+  .gallery-grid,
+  .stats-section,
+  .split-section {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero {
+    min-height: auto !important;
+    padding: 120px 16px 50px !important;
+  }
+
+  .hero-visual {
+    height: 430px !important;
+    min-height: 430px !important;
+  }
+
+  .training-card {
+    position: absolute !important;
+    inset: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .float-card {
+    display: none !important;
+  }
+
+  .section,
+  .stats-section,
+  .final-cta {
+    width: calc(100% - 28px) !important;
+  }
+
+  .premium-card,
+  .plan-card,
+  .timeline-item,
+  .gallery-item {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
